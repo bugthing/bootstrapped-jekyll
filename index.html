@@ -5,8 +5,24 @@ layout: default
 <h1>Git to Deploy</h1>
 
 <p class="lead">
-Here you can gain access to information relating Jira, BitBucket and any deployed containers.
+Here you can gain access to information relating to Jira, BitBucket and any deployed containers.
 </p>
+
+<pre style="font-family:monospace;">
+git --&gt; hook fires      --&gt; write commit id (plus other info) to store
+                           --&gt; emit event: BBHOOK_RECIEVED(commit_id)
+
+get event: BBHOOK_RECIEVED --&gt; start build
+                           --&gt; write to store
+
+get event: BBHOOK_RECIEVED --&gt; get jira info
+                           --&gt; write to store
+
+get event: BBHOOK_RECIEVED --&gt; get bitbucket info
+                           --&gt; write to store
+
+http --&gt; check store    --&gt; output data
+</pre>
 
 <dl class="dl-horizontal">
   <dt>

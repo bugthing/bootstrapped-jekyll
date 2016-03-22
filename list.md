@@ -5,13 +5,7 @@ layout: default
 List
 ====
 
-Some markdowen in files with links
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-and images
-[![Docker Repository on Quay](https://quay.io/repository/workplace/mobile-api/status?token=97f121e9-d480-4b7d-a713-579f00917218 "Docker Repository on Quay")](https://quay.io/repository/workplace/mobile-api)
-then some html
-
-<table class="table">
+<table class="table table-striped">
 	<thead>
 		<tr>
 		  <th>
@@ -53,7 +47,7 @@ then some html
             Deploying
 		  </td>
 		  <td>
-            <a class="btn" href="/detail/">More</a>
+            <a class="btn btn-default" href="/detail/" role="button">More</a>
 		  </td>
 		</tr>
 		<tr>
@@ -74,7 +68,7 @@ then some html
             <a class="btn" href="/">Deployed</a>
 		  </td>
 		  <td>
-            <a class="btn" href="/detail/">More</a>
+            <a class="btn btn-default" href="/detail/" role="button">More</a>
 		  </td>
 		</tr>
 	</tbody>

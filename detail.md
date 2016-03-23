@@ -23,7 +23,7 @@ Back to the [list](/list) page
     <div class="col-xs-6 col-lg-4">
       <h2>Jira</h2>
       <p>
-        Ticket: <a class="btn" href="/ticket/">FUJI-123</a>
+        Ticket: <a class="btn" href="https://workplacejira.atlassian.net/browse/FUJI-4299">FUJI-123</a>
       </p>
       <p>
         Some descrpition of the ticket that is attache to the ticket some read it her
@@ -44,14 +44,14 @@ Back to the [list](/list) page
             <td>anb7jg6sf</td>
             <td>deploying</td>
             <td>
-              <a class="btn btn-default" href="#" role="button">Visit</a>
+              <a class="btn btn-default" href="http://www.alpha.fuji.ninja" role="button">Visit</a>
             </td>
           </tr>
           <tr>
             <td>grthy2g6s</td>
             <td>deployed</td>
             <td>
-              <a class="btn btn-default" href="#" role="button">Visit</a>
+              <a class="btn btn-default" href="http://www.alpha.fuji.ninja" role="button">Visit</a>
             </td>
           </tr>
         </tbody>
@@ -65,7 +65,7 @@ Back to the [list](/list) page
 	  </p>
 	  <p>
         recent commit:
-        <a class="btn" href="#" target="_top"> anb7jg6sf </a>
+        <a class="btn" href="https://bitbucket.org/workplacesystems/fuji-engage" target="_top"> anb7jg6sf </a>
         <b>Sammy-Snake</b>
         <i>2016-01-08 12:21:42</i>
       </p>
@@ -76,7 +76,12 @@ Back to the [list](/list) page
     </div>
     <div class="col-xs-18 col-lg-12">
       <h2>Comments</h2>
-      <p></p>
+      <p>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+      </p>
       <p>
          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. 
       </p>
